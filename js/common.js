@@ -14,8 +14,7 @@ $(document).ready(function() {
 		$(".s_portfolio li").removeClass('active');
 		$(this).addClass('active');
 	});
-	//$('.portfolio_table').mixItUp();
-
+	
 	$(".top_text").animated('fadeInDown','fadeOutUp');
 
 	$(".animation_1").animated('fadeInDown','fadeOutUp');
@@ -57,22 +56,9 @@ $(document).ready(function() {
 
 	$(".top_mnu ul a").mPageScroll2id();
 	$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
-	// $(".top_mnu li").sliphover({
-	// 	target: 'a',
-	// 	backgroundColor: 'rgba(255,255,255,.1)'
-	// });
 
 }); 
 
-// $(window).load(function() {
-
-// 	// $(".loader_inner").fadeOut();
-// 	// $(".loader").delay(400).fadeOut("slow");
-
-// 	// $(".top_text h1").animated("fadeInDown", "fadeOutUp");
-// 	// $(".top_text p").animated("fadeInUp", "fadeOutDown");
-
-// }); 
 window.onload = function() { 
 	$(".loader_inner").fadeOut(); 
 	$(".loader").delay(1000).fadeOut("slow"); 

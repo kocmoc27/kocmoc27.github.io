@@ -282,7 +282,7 @@
 </section>
 	
 <footer class="main_footer bg_dark">
-	<div class="copy">&copy <?=YEAR();?> Байбатыров Нурлан</div>
+	<div class="copy">&copyright <?=YEAR();?> Байбатыров Нурлан</div>
 	
 	<div class="social_wrap">
 		<ul>
